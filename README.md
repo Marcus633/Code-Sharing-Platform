@@ -16,9 +16,9 @@ This project was developed as a structured backend engineering exercise to imple
 ## Repository Structure
 
 The core source code, styles, and template engines are organized into the following structure:
-* **Source Implementation:** `Code Sharing Platform/task/src/main/java/platform/`
-* **Static Assets (CSS):** `Code Sharing Platform/task/src/main/resources/static/css/theme.css`
-* **UI Templates (FreeMarker):** `Code Sharing Platform/task/src/main/resources/templates/*.ftlh`
+* **Source Implementation:** `Code Sharing Platform/task/src/platform/`
+* **Static Assets (CSS):** `Code Sharing Platform/task/src/resources/css/theme.css`
+* **UI Templates (FreeMarker):** `Code Sharing Platform/task/src/resources/templates/*.ftlh`
 
 ## API Specifications
 
@@ -48,12 +48,12 @@ The core source code, styles, and template engines are organized into the follow
    ```bash
    https://github.com/Marcus633/Code-Sharing-Platform.git
    ```
-2. Navigate to the task application directory:
+2. Navigate to the repo:
  ```bash
-   cd CodeSharingPlatform/task
+   cd Code-Sharing-Platform
  ```
 3. Execute the Spring Boot run task using the Gradle wrapper:
  ```bash
-   ../gradlew.bat bootRun
+   gradlew.bat bootRun
  ```
-The application initializes by default on port 8889. You can navigate to http://localhost:8889/code/new in any standard web browser to submit code blocks interactively, or monitor structural data allocations via the local H2 Database console interface.
+The application initializes by default on port `8889`. You can navigate to `http://localhost:8889/code/new` in any standard web browser to submit code blocks interactively, or monitor structural data allocations via the local H2 Database console interface.
