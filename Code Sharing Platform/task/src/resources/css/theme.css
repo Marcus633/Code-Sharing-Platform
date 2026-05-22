@@ -1,0 +1,29 @@
+body {
+    margin: 15px;
+}
+
+pre {
+    width: 60%;
+    border: 1px black solid;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+}
+
+span {
+    font-size: 12px;
+    font-family: "Roboto Light", sans-serif;
+    color: green;
+}
+
+textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
